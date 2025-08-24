@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ml_eval_viz"
-version = "0.1.0"
+version = "0.1.1"
 description = "A custom python package for Machine Learning model evaluation and visualization."
 authors = ["Vaibhav Kiran Ghaisas"]
 license = "MIT"
