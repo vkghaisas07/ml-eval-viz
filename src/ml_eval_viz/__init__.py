@@ -11,4 +11,5 @@ __all__ = [
     "plot_residuals",
     "plot_feature_importance",
     "evaluate_classifier",
+    "evaluate_regressor",
 ]
