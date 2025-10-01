@@ -106,15 +106,5 @@ def evaluate_regressor(
 
     if show_plots:
         plot_residuals(y_true, y_pred)
-        
-        # Plot feature importance if available
-        try:
-            from .plots import plot_feature_importance
-            # Note: you'd need the feature names from outside this function to use 
-            # plot_feature_importance effectively, but we include the call here.
-            # A simpler default call (without names) is omitted for clean code.
-            pass
-        except ImportError:
-            pass # Only plot residuals if feature_importance is not available or handled separately
 
     return report
